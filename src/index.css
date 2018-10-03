@@ -28,5 +28,19 @@ p{
 }
 .container{
   width: 500px;
-  margin: 0 auto 100px auto
+  margin: 0 auto 100px auto;
+}
+.show-hide {
+  transition: opacity 0.5s;
+  opacity: 1;
+  width: 50%;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.29);
+  padding: 20px;
+  color: #fff
+
+}
+.show-hide.hide {
+  opacity: 0;
+  pointer-events:none;
 }
